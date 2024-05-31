@@ -16,3 +16,11 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+details[open] #summarker{
+    rotate: 90deg;
+}
+
+summary::marker{
+    content: none;
+}

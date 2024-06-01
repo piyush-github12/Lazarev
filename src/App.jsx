@@ -6,6 +6,7 @@ import Page2 from './pages/Page2'
 import Page3 from './pages/Page3'
 import Page4 from './pages/Page4'
 import Digitalproductpage from './pages/Digitalproductpage'
+import DP_page6 from './pages/DP_page6'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Page3/>
       <Page4/>
       <Digitalproductpage/>
+      <DP_page6/>
     </div>
   )
 }

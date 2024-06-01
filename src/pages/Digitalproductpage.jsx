@@ -14,7 +14,7 @@ const Digitalproductpage = () => {
   };
 
   return (
-    <div className="w-full min-h-[100vh] px-[5vw] py-40 text-white">
+    <div className="w-full min-h-[100vh]  px-[5vw] py-40 text-white">
       <div className="w-full h-[30vh] flex border-b-[2px] border-[#ffffff2e] ">
         <div className="w-[30%] h-full"></div>
         <div className="w-[70%] h-full ">
@@ -43,7 +43,7 @@ const Digitalproductpage = () => {
             id="uiux"
             className="relative w-full h-fit  border-t-[2px] border-[#ffffff2e] -teal-300 mt-20 py-5"
           >
-            <details open name="ui">
+            <details open>
               <summary>
                 <div
                   id="summarker"
@@ -71,13 +71,11 @@ const Digitalproductpage = () => {
                   onMouseLeave={onhoveroff}
                   className="overflow-hidden relative w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  "
                 >
-                  
-                    <motion.div
-                      id="sk"
-                      
-                      className="w-full h-full absolute  bg-zinc-600 left-0 top-[-100%] "
-                    ></motion.div>
-               
+                  <motion.div
+                    id="sk"
+                    className="w-full h-full absolute  bg-zinc-600 left-0 top-[-100%] "
+                  ></motion.div>
+
                   <div className="w-[30%] h-full font-light text-[30px] z-[99] ">
                     UI & UX Design
                   </div>
@@ -132,7 +130,7 @@ const Digitalproductpage = () => {
             id="uiux"
             className="relative w-full h-fit border-t-[2px] border-[#ffffff2e] -teal-300  py-5"
           >
-            <details name="ui">
+            <details>
               <summary>
                 <div
                   id="summarker"

@@ -1,17 +1,10 @@
-import { AnimatePresence, animate, motion } from "framer-motion";
-import React, { useState } from "react";
+
+import React, { useRef, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 
 const Digitalproductpage = () => {
-  const [oncl, setoncl] = useState(false);
 
-  const onhover = () => {
-    animate("#sk",{y:"100%"} , )
-  };
-  const onhoveroff = () => {
-    animate("#sk", { y: "200%" },)
-    
-  };
+  
 
   return (
     <div className="w-full min-h-[100vh]  px-[5vw] py-40 text-white">
@@ -65,57 +58,24 @@ const Digitalproductpage = () => {
                   )}
                 </div>
               </summary>
-              <div className="w-full h-[40vw] mt-5">
+              <div  className="w-full h-[40vw] mt-5">
                 <div
-                  onMouseEnter={onhover}
-                  onMouseLeave={onhoveroff}
-                  className="overflow-hidden relative w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  "
-                >
-                  <motion.div
-                    id="sk"
-                    className="w-full h-full absolute  bg-zinc-600 left-0 top-[-100%] "
-                  ></motion.div>
+                //  onMouseEnter={enterhover}
+                //  onMouseLeave={leavemouse}
 
-                  <div className="w-[30%] h-full font-light text-[30px] z-[99] ">
+                 className="  overflow-hidden relative w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  ">
+                  <div
+                    id="uper"
+                    className="w-full h-full absolute  bg-[#35353599] left-0 top-[-100%] "
+                  ></div>
+
+                  <div
+                    
+                    className="w-[30%] h-full font-light text-[30px] z-[99] "
+                  >
                     UI & UX Design
                   </div>
                   <div className="w-[50%] h-full z-[99] ">
-                    <p className="font-light">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nostrum, sit animi fuga temporibus nihil assumenda
-                      corrupti. Magni cupiditate perspiciatis at.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  ">
-                  <div className="w-[30%] h-full font-light text-[30px] ">
-                    UI & UX Design
-                  </div>
-                  <div className="w-[50%] h-full  ">
-                    <p className="font-light">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nostrum, sit animi fuga temporibus nihil assumenda
-                      corrupti. Magni cupiditate perspiciatis at.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  ">
-                  <div className="w-[30%] h-full font-light text-[30px] ">
-                    UI & UX Design
-                  </div>
-                  <div className="w-[50%] h-full  ">
-                    <p className="font-light">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nostrum, sit animi fuga temporibus nihil assumenda
-                      corrupti. Magni cupiditate perspiciatis at.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full h-[25%] border-t-[1px] border-[#ffffff2e] flex items-center  gap-10 py-5  ">
-                  <div className="w-[30%] h-full font-light text-[30px] ">
-                    UI & UX Design
-                  </div>
-                  <div className="w-[50%] h-full  ">
                     <p className="font-light">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Nostrum, sit animi fuga temporibus nihil assumenda

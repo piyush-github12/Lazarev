@@ -43,6 +43,7 @@ const Nav = () => {
   useEffect(() => {
     
     const handleScroll = () => {
+      console.log(window.scrollY)
       setScrollY(window.scrollY);
     };
 
